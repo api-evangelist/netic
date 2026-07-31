@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://cybernetic-labs.secureframetrust.com/
+url: https://cybernetic-labs.secureframetrust.com/
+provider: Secureframe Trust
+legal_entity: Cybernetic Labs Inc.
+certifications: []
+notes: >-
+  Netic (Cybernetic Labs Inc.) publishes a Secureframe-hosted trust center that
+  documents its security controls and policies and states it is "continuously
+  monitored by Secureframe." Vendor management language references reviewing
+  vendor SOC 2 reports annually, but the page does not name a completed
+  Netic-held certification (SOC 2 / ISO 27001 / HIPAA / PCI / GDPR) in the
+  fetched content. No `Compliance` pointer is emitted because no published,
+  named certification program was verified.
+evidence:
+- source: https://cybernetic-labs.secureframetrust.com/
+  keywords: [trust center, secureframe, continuously monitored, security controls, vendor soc 2]

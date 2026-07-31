@@ -1,8 +1,29 @@
 aid: netic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netic.png
 name: Netic
-description: 'Netic is a company surfaced as a portfolio company of founders-fund, greylock, sv-angel
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Netic (legal entity Cybernetic Labs Inc.), headquartered in San Francisco, builds
+  production-grade autonomous AI systems for America's essential service industries —
+  home services, pest control, roofing, consumer health, and veterinary. Its AI Growth
+  Engine spans speech, text, and data with products including Convert (autonomous
+  multi-channel job booking into CRM/FSM systems), Cultivate (autonomous upsell and
+  membership campaigns), Empower (analytics and data-driven decision support), and
+  Evaluate (AI call-center scoring), with Expand announced as coming soon. Netic is
+  backed by Founders Fund, Greylock, and SV Angel. As of this enrichment pass the
+  company publishes no public API, developer portal, OpenAPI, or SDKs; this profile
+  captures its identity, blog, privacy policy, domain-security posture, and its
+  Secureframe-hosted trust center.
 url: https://raw.githubusercontent.com/api-evangelist/netic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- Autonomous Agents
+- Home Services
+- Field Service
+- Voice AI
+- Automation
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +53,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/netic-domain-security.yml
 - type: Website
   url: https://www.netic.ai/
+- type: Blog
+  url: https://www.netic.ai/blog
+- type: PrivacyPolicy
+  url: https://www.netic.ai/privacy-policy
+- type: TrustCenter
+  url: https://cybernetic-labs.secureframetrust.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/netic-ai
+- type: X
+  url: https://x.com/Netic_AI
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
